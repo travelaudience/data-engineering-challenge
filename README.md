@@ -25,7 +25,7 @@ Your application will need to do the following:
   
 * Parse an input data-source containing events with the same fields as in the sample csv: user-id and geo-coordinates.
 
-* Geo-distance calculation: Take the users's coordinates and compare this with the set of airport coordinates to get the 
+* Geo-distance calculation: Take the users' coordinates and compare this with the set of airport coordinates to get the
   IATA code with the closest geo-distance to the user.
 
 * For each input event, your application is expected to output one event containing two fields: 
@@ -56,16 +56,14 @@ You have a free hand in choosing the environment in which the code is developed 
 The longitude, latitude data in this sample was taken from a data-set provided
 by Maxmind inc.
 
-This work is licensed under the Creative CommonsAttribution-ShareAlike 4.0 International License. 
-To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+This work is licensed under the [Creative CommonsAttribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 This database incorporates [GeoNames](http://www.geonames.org) geographical data, 
-which is made available under the Creative Commons Attribution 3.0 License. 
-To view a copy of this license, visit http://www.creativecommons.org/licenses/by/3.0/us/.
+which is made available under the [Creative Commons Attribution 3.0 License](http://www.creativecommons.org/licenses/by/3.0/us/).
 
 * `optd-airports-sample.csv.gz`
 
-Licensed under Creative Commons - for more information see: https://github.com/opentraveldata/optd/blob/trunk/LICENSE
+Licensed under Creative Commons - for more information check [here](https://github.com/opentraveldata/optd/blob/trunk/LICENSE).
 
 * All other data
 
