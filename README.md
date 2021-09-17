@@ -1,13 +1,13 @@
 # Data Engineering Challenge
 
-## Objective
+## Context
 
 We have a list of tracking signals containing the approximate geo-location of users on internet. 
-To help us show them the right ads, we want to know which airport they are closest to.
+To help us show the right ads to the right users, we want to know the nearest airport for each user.
 
-## Data-sets
+## Datasets
 
-You will be provided with two sample data-sets to consume:
+You are provided with two sample datasets:
 
 * `optd-airports-sample.csv.gz` - A simplified version of a data set from Open Travel Data, containing geo-coordinates 
 of major airports:
@@ -19,7 +19,7 @@ of major airports:
     * Latitude and Longitude in floating point format (second and third columns, respectively)
     * Each row of the CSV can be considered as a single user tracking event.
 
-## Task
+## Requirements
 
 Your application will need to do the following:
   
@@ -28,32 +28,29 @@ Your application will need to do the following:
 * Geo-distance calculation: Take the users' coordinates and compare this with the set of airport coordinates to get the
   IATA code with the closest geo-distance to the user.
 
-* For each input event, your application is expected to output one event containing two fields: 
+* For each user input event, your application is expected to output one event containing two fields: 
   user-id and an IATA code corresponding to the closest airport.
 
 * Your application must be scalable. 
-  In a real-world scenario, we might get hundreds or even thousands of such events per second.
+  In a real-world scenario, we might receive hundreds or even thousands of events per second.
 
 ## Deliverable 
 
-The purpose of this task is to provide code which satisfies the task above whilst at the same time demonstrating your 
-coding style as well as your design and engineering skills.
+The goal of this challenge is to provide an implementation which satisfies the requirements from above whilst demonstrating your coding style as well as your software design and engineering skills.
 
-Your code should be a production-grade prototype and you should be able to defend your approach and be able to discuss 
-any limitations/trade-offs you have made in your design.
+Your solution should be a high-quality prototype, showing your ability to write readable and maintainable code. You should be able to discuss any limitations of your implementation and trade-offs that you have made during development.
 
-We recommend you clone the repo, document decisions you made, and provide the solution as a zip(archive) file.
+We recommend you clone this repository and keep track of any decisions in a readme file whilst working on your solution. Please provide the source code of the final solution together with the readme in a zip (archive) file.
 
 ## Environment & Language
 
-We prefer Scala as language. 
-You have a free hand in choosing the environment in which the code is developed and demonstrated.
+You have a free hand in choosing the programming language, framework, and environment in which the code is developed and demonstrated. For any further questions, feel free to reach out to your contact at travelaudience.
 
 ## Licensing 
 
 * `user-geo-sample.csv.gz`
 
-The longitude, latitude data in this sample was taken from a data-set provided by Maxmind inc.
+The longitude, latitude data in this sample was taken from a dataset provided by Maxmind inc.
 This work is licensed under the [Creative CommonsAttribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 This database incorporates [GeoNames](http://www.geonames.org) geographical data, which is made available under the 
