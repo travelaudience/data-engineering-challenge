@@ -58,4 +58,4 @@ This database incorporates [GeoNames](http://www.geonames.org) geographical data
 
 * `optd-airports-sample.csv.gz`
 
-Licensed under Creative Commons. For more information check [here](https://github.com/opentraveldata/optd/blob/trunk/LICENSE).
+Licensed under Creative Commons. For more information check [here](https://github.com/opentraveldata/opentraveldata#licensing).
