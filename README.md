@@ -44,7 +44,7 @@ We recommend you clone this repository and keep track of any decisions in a read
 
 ## Environment & Language
 
-You have a free hand in choosing the programming language, framework, and environment in which the code is developed and demonstrated. For any further questions, feel free to reach out to your contact at travelaudience.
+You have a free hand in choosing the programming language in which the code is developed and demonstrated. We do recommend implementing the solution in a data processing framework like Beam, Spark or Flink, demonstrating your engineering skills within such a framework. For any further questions, feel free to reach out to your contact at Amadeus.
 
 ## Licensing 
 
